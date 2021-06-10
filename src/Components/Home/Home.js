@@ -13,21 +13,21 @@ const Home = () => {
     const [vehicles, setVehicles] = useContext(vehiclesContext);
 
     return (
-        <div  className="transport-container">
+        <div className="transport-container">
             <div className="transport-area container">
-                <Link to='/destination' onClick={()=>setVehicles('bike')} className="transport-method">
+                <Link to='/destination' onClick={() => setVehicles('bike')} className="transport-method">
                     <img src={Bike} alt="" />
                     <p>Bike</p>
                 </Link>
-                <Link to='/destination' onClick={()=>setVehicles('car')} className="transport-method">
+                <Link to='/destination' onClick={() => setVehicles('car')} className="transport-method">
                     <img src={Car} alt="" />
                     <p>Car</p>
                 </Link>
-                <Link to='/destination' onClick={()=>setVehicles('bus')}className="transport-method">
+                <Link to='/destination' onClick={() => setVehicles('bus')} className="transport-method">
                     <img src={Bus} alt="" />
                     <p>Bus</p>
                 </Link>
-                <Link to='/destination' onClick={()=>setVehicles('train')} className="transport-method">
+                <Link to='/destination' onClick={() => setVehicles('train')} className="transport-method">
                     <img src={Train} alt="" />
                     <p>Train</p>
                 </Link>

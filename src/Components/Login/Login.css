@@ -1,123 +1,35 @@
-.form-group {
-    margin-bottom: 1rem;
-    display: flex;
-    flex-wrap: wrap;
+.form{
+    border: 3px solid lightblue;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    padding: 5%;
 }
-.login-container {
-    text-align: center;
-    margin-bottom: 50px;
+.or{
+   
+   
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    padding: 6px;
 }
-
-.login-with-email-pass{
-    width: 500px;
-    margin: auto;
-    margin-top: 50px;
-    text-align: center;
-    border: 1px solid lightgray;
+.or button{
     border-radius: 5px;
-    padding: 30px;
+    border: 2px solid lightcoral;
+    margin: 3px;
+    padding: 2%;
 }
-.form-group input {
-    max-width: 100%;
-    flex: 0 0 100%;
-    outline: none;
-    border: none;
-    border-bottom: 1px solid #9999;
-    margin-bottom: 10px;
-    padding: 10px;
+.form input{
+    background-color: rgb(192, 227, 238);
+    border-radius: 5px;
+    margin: 3px;
+    padding: 2%;
 }
-.login-link{
-    color: blue;
-    text-decoration: underline;
-    cursor: pointer;
+h4{
+    color: royalblue;
 }
-
-.login-btn{
-    background-color: #fb5200;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.or-line span {
-    width: 135px;
-    height: 1px;
-    background: black;
-    display: block;
-    margin-top: 13px;
-}
-
-.or-line {
-    display: flex;
-    place-content: center;
-    margin: 30px 0;
-}
-
-.or-line b {
-    margin: 0 10px;
-}
-
-.sign-in-with-social p {
-    border: 1px solid lightgray;
-    width: 300px;
-    margin: auto;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-    border-radius: 50px;
-    cursor: pointer;
-    display: flex;
-}
-
-.sign-in-with-social p .social-icon {
-    text-align: left;
-    margin-top: 3px;
-    font-size: 20px;
-}
-.social-icon.google-icon{
-    color: #4285F4;
-}
-.social-icon.facebook-icon{
-    color: #3b5998;
-}
-.sign-in-with-social p span{
-    width: 90%;
-    text-align: right;
-    font-weight: 500;
-}
-.rememberME-and-forgot-box {
-    display: flex;
-    width: 100%;
-    margin: 10px 0 25px 0;
-}
-
-.remember-me {
-    text-align: left;
-    width: 50%;
-}
-
-.forgot-password {
-    text-align: right;
-    width: 50%;
-}
-
-.remember-me input {
-    margin-right: 10px;
-}
-
-.forgot-password span {
-    text-decoration: underline;
-    color: #fb5200;
-    cursor: pointer;
-}
-
-@media (max-width: 991px){
-    .login-with-email-pass{
-        width: 95%;
-    }
-    .remember-me label{
-        font-size: 14px;
-    }
-    .forgot-password span{
-        font-size: 14px;
-    }
+input{
+    width: 30vw;
 }

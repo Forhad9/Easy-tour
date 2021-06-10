@@ -14,7 +14,7 @@ const Destination = (props) => {
 
     let vehicles = props.vehicles;
 
-    const history =  useHistory()
+    const history = useHistory()
 
     // if (!vehicles) {
     //     alert('please select a transport method')
@@ -74,7 +74,7 @@ const Destination = (props) => {
                 </div>
             </div>
             <div className="map-container">
-               <GoogleMap></GoogleMap>
+                <GoogleMap></GoogleMap>
             </div>
         </div>
     );

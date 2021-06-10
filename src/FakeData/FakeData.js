@@ -3,7 +3,7 @@ import car from '../images/car.png';
 import train from '../images/train.png';
 import bus from '../images/bus.png';
 const fakeData = [
-    {
+  {
     "id": 1,
     "vehicle_type": "Bike",
     "cost": "$97",
@@ -27,7 +27,7 @@ const fakeData = [
     "cost": "$78",
     "sit": 50,
     "vehicle_icon": `${train}`
-  },{
+  }, {
     "id": 5,
     "vehicle_type": "Bike",
     "cost": "$90",
@@ -44,39 +44,39 @@ const fakeData = [
     "vehicle_type": "Bus",
     "cost": "$50",
     "sit": 20,
-    "vehicle_icon":  `${bus}`
+    "vehicle_icon": `${bus}`
   }, {
     "id": 8,
     "vehicle_type": "train",
     "cost": "$60",
     "sit": 80,
-    "vehicle_icon":  `${train}`
+    "vehicle_icon": `${train}`
   },
   {
     "id": 9,
     "vehicle_type": "Bike",
     "cost": "$85",
     "sit": 1,
-    "vehicle_icon":  `${bike}`
+    "vehicle_icon": `${bike}`
   }, {
     "id": 10,
     "vehicle_type": "Car",
     "cost": "$80",
     "sit": 5,
-    "vehicle_icon":  `${car}`
+    "vehicle_icon": `${car}`
   }, {
     "id": 11,
     "vehicle_type": "Bus",
     "cost": "$40",
     "sit": 25,
-    "vehicle_icon":  `${bus}`
+    "vehicle_icon": `${bus}`
   }, {
     "id": 12,
     "vehicle_type": "train",
     "cost": "$80",
     "sit": 60,
-    "vehicle_icon":  `${train}`
+    "vehicle_icon": `${train}`
   }
 ]
 
-  export default fakeData;
+export default fakeData;

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Header.css'
+import './Header.css';
 import { Link } from 'react-router-dom';
-import {useContext} from 'react';
-import {userContext} from '../../App';
+import { useContext } from 'react';
+import { userContext } from '../../App';
 
 const Header = () => {
     const [loggedInUser, setLoggedInUser] = useContext(userContext);
@@ -10,14 +10,13 @@ const Header = () => {
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container-fluid">
-                    <Link className="navbar-brand text-danger logo" to="/"><small>EASY TOUR</small></Link>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <Link className="navbar-brand logo" to="/"><small className="text-danger">EASY TOUR</small></Link>
+
                     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div className="navbar-nav navbar-position">
                             <Link className="nav-link" aria-current="page" to="/home">Home</Link>
                             <Link className="nav-link" to="/destination">Destination</Link>
+                            <Link className="nav-link" to="/">Blog</Link>
                             <Link className="nav-link" to="/">Contact</Link>
                             {
                                 loggedInUser.name ?
