@@ -10,7 +10,7 @@ Open (https://easy-tour21.web.app/) to view it in the browser.
 - used useEffect and called fake data through using map method created cards 
 
 # Destination component
-- 
+- You found here destination through use google map
 # PrivateRoute component
 - created private route for login if user is not logged in 
 
