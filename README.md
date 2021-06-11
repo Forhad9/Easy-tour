@@ -1,5 +1,5 @@
-# Getting Started # EASY TOUR React App
-# EASY TOUR
+# Getting Started with EASY TOUR React App
+
 Runs the app in the development mode.\
 Open (https://easy-tour21.web.app/) to view it in the browser.
 
