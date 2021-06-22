@@ -1,5 +1,5 @@
 import React from 'react';
-import './Home.css'
+import './Home.css';
 import Bike from '../../images/bike.png';
 import Car from '../../images/car.png';
 import Bus from '../../images/bus.png';
